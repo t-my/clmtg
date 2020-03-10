@@ -1,0 +1,12 @@
+
+(defparameter *girzzly-bears*
+  (list (
+				 :name "Grizzly Bears"
+				 :type 'creature)))
+
+
+
+
+
+
+

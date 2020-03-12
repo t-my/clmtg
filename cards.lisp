@@ -11,9 +11,5 @@
   (list :name "Forest"
 	:type 'basic-land
 	:sub-type "Forest"
-	:color 'colorless
-	:rules (list add-g-to-manapool)))
+	:color 'colorless)
 
-
-(defun add-g-to-manapool (game)
-  (add-mana((get-player-pool game) 'green)))
